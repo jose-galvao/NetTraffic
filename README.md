@@ -6,5 +6,8 @@ O código usa o hook XDP que é atrelado a uma interface. Mapas, perf events e o
 ## Utilização do código
 
 Para utilizar o código você precisa:
-1- Mudar a interface que deseja ser monitorada;
-2- No terminal com super usuário coloque o comando ````python3 coleta_trafico.py > arquivo.csv```. Assim, toda saída capturada pelo programa será valvo no rquivo "arquivo.csv"
+
+1.  Mudar a interface que deseja ser monitorada;
+2.  No terminal com super usuário coloque o comando
+   ```python3 coleta_trafico.py > arquivo.csv```.
+Assim, toda saída capturada pelo programa será valvo no rquivo "arquivo.csv"
